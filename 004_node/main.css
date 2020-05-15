@@ -1,0 +1,6 @@
+* {
+  border: 1px solid black;
+}
+h1, h2, div, p, main, body {
+  padding: 13px;
+}

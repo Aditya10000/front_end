@@ -1,0 +1,17 @@
+h1 {
+  color: rgb(121, 27, 241);
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  padding: .5rem;
+  margin-top: 1.3rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
