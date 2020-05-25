@@ -1,0 +1,33 @@
+body, html, p, div {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div {
+  color: rgb(66, 48, 48);
+  background-color: rgb(236, 184, 171);
+  max-height: 0vw;
+  overflow: hidden;
+  width: 80vw;
+  margin-bottom: 1rem;
+  transition: max-height 0.4s;
+}
+button {
+  color: rgb(10, 71, 152);
+  padding: 5px 9px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+div.change {
+  max-height: 45vw;
+  transition: max-height 0.4s;
+  padding: 8px;
+}

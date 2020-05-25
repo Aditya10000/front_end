@@ -1,0 +1,10 @@
+img {
+    width: 50vw;
+}
+.dot {
+    background-color: rgb(122, 11, 111);
+    height: 0.2rem;
+    width: 0.2rem;
+    border-radius: 2px;
+    position: absolute;
+}

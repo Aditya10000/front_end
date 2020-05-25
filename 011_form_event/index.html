@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter Name : </label>
+    <input type="text" id="name" placeholder="Name" > 
+    <label for=""> Your Favorite Animal : 
+        <select id="animal">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Elephant" selected>Elephant</option>
+        </select>
+    </label>
+    <br>
+    <button>Submit</button>
+    <p></p>
+    <script>
+        let name = document.getElementById('name');
+        console.log(name);
+        let animal = document.getElementById('animal');
+        let button = document.querySelector('button');
+        let p = document.querySelector('p');
+
+        button.addEventListener('click',onButtonClick);
+        function onButtonClick() {
+            if( name.value === ''){
+                p.textContent = "Enter name to See it";
+            }
+            else {
+            p.textContent = `Your name is ${name.value} and your Favorite animal is ${animal.value}`;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -12,7 +12,6 @@
 // }
 let b = document.querySelector('ul');
 
-
 for(i=0; i<animals.length;i++){
   let p = document.createElement('li');
   p.textContent = animals[i];

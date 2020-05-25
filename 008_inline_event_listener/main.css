@@ -1,0 +1,7 @@
+body, html, h1, p, div {
+  box-sizing: border-box;
+  margin: 0;
+  padding: .6rem;
+  border: 0;
+  text-align: center;
+}
