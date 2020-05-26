@@ -1,0 +1,28 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 80vw;
+    background-color: rgb(90, 180, 221);
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 132, 167);
+}
+button {
+    position : absolute;
+    right: 5px;
+    top: 2px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 2px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    color: red;
+}

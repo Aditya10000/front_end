@@ -1,0 +1,35 @@
+html, body, div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 20vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* transition: background-color 0.4s; */
+    transition: all 1.5s;
+}
+.second {
+    background-color: green;
+    transition: all 1.5s;
+}

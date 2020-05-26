@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body * {
+            padding: 15px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div>Div
+        <form> Form
+            <p>
+                P
+            </p>
+        </form>
+    </div>
+</body>
+<script>
+
+    // queryselector all and * , will fetch all the tags that are inside the 
+    // document model
+    let all = document.querySelectorAll('*');
+    for (const DOMElement of all) {
+        DOMElement.addEventListener('click', () => {
+            alert(`Alert Capture: ${DOMElement.tagName}`);
+        }, true);
+        DOMElement.addEventListener('click', () => {
+            alert(`Alert Bubble : ${DOMElement.tagName}`);});
+    }
+
+    
+</script>
+</html>

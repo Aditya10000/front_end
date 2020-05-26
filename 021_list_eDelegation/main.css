@@ -1,0 +1,14 @@
+html, body, ul, li {
+    box-sizing: border-box;
+}
+.main1, .main2 {
+    max-width: 40vw;
+    background-color: red;
+    margin: 3px;
+}
+li {
+    border: 1px solid grey;
+}
+.hide {
+    display: none;
+}
